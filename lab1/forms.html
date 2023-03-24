@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+<fieldset>
+    <legend>Your details:</legend>
+    <label>
+        Name:<input type="text" name="name">
+    </label>
+ </br>
+    </br>
+    <label>
+        Email:<input type="text" name="email" placeholder="example@domain.com">
+    </label>
+</fieldset>
+</br>
+<fieldset>
+    <legend>Your Review:</legend>
+    <label>How did you hear about us?
+        <select name="source">
+            <option value="google">Google</option>
+            <option value="friend">Friend</option>
+            <option value="advert">Advert</option>
+            <option value="other">Other</option>
+        </select>
+    </label>
+    </br> </br>
+    <label id="slika">
+        Would you like to visit again?</br>
+        <input type="radio" name="visiting" value="Yes" checked="checked">Yes
+        <input type="radio" name="visiting" value="No" checked="checked">No
+        <input type="radio" name="visiting" value="Maybe" checked="checked">Maybe
+    </label>
+   </br>
+    </br>
+    Comments:
+    </br>
+       <label><textarea name="comments" cols="30" rows="5">
+       </textarea>
+       </label>
+  </br>
+    </br>
+    <label>
+        <input type="checkbox" name="email updates" value="email" checked="checked">
+        Sign me up for email updates
+    </label>
+</br>
+    </br>
+   <label>
+       <input type="submit" value="Submit review" >
+   </label>
+</fieldset>
+</body>
+</html>
