@@ -1,1 +1,1 @@
-Solved programming problems using HTML,CSS,JavaScript
+Solved  problems using HTML,CSS
