@@ -1,0 +1,85 @@
+body {
+    background-color: lightgray;
+}
+.main{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: 0  auto;
+}
+h1 {
+    font-size: 26px;
+    color: #92CD00;
+    text-align: center;
+}
+
+
+.menu {
+    width: 800px;
+    height: 30px;
+    position: absolute;
+    top: 35px;
+    background-image: url("img/navigation-background.jpg");
+}
+
+.lists {
+    margin-left: 120px;
+    padding: 4px;
+}
+
+.link {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    height: 420px;
+}
+
+.left {
+    width: 370px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: justify;
+    color: #192402;
+
+}
+.slika {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+.sliki {
+    width: 360px;
+    height: 260px;
+}
+
+footer {
+    width: 800px;
+    height: 30px;
+    position: absolute;
+    background-color: #81b518;
+    color: white;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.footer1{
+    align-items: center;
+}
+.leaf {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+ol {
+    line-height: 1em;
+    text-align: justify;
+    float: left;
+}
