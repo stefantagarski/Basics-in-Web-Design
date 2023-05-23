@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab 5</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+    <span>Finki</span>
+    <span>Page</span>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a class="link" href="contact.html">Contact</a>
+        <a href="info.html">Info</a>
+    </nav>
+</header>
+<div class="pozadina">
+    <div class="main">
+        <h3>Contact Form</h3>
+
+        <div class="form">
+            <div class="left">
+                <form>
+                    <label for="firstname">First Name <br></label>
+                    <input type="text" id="firstname" placeholder="Your name">
+                    <br>
+                    <label>Date of birth <br></label>
+                    <label for="dateofbirth"></label><input type="date" id="dateofbirth">
+                    <br>
+                    <label>Country <br></label>
+                    <label for="country"></label><select id="country">
+                        <option value="Australia">Australia</option>
+                        <option value="Macedonia">Macedonia</option>
+                        <option value="The Netherlands">The Netherlands</option>
+                        <option value="Spain">Spain</option>
+                    </select>
+                    <br>
+                    <label>CV</label>
+                    <input type="file" id="cv">
+                </form>
+            </div>
+            <div class="right">
+                <form>
+                    <label for="lastname">Last name <br></label>
+                    <input type="text" id="lastname" placeholder="Your last name">
+                    <br>
+                    <label for="subject">Subject <br></label>
+                    <textarea id="subject" placeholder="Write something..."></textarea>
+                </form>
+            </div>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</div>
+</body>
+</html>
